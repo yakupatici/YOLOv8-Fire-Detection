@@ -2,19 +2,6 @@
 
 This project implements a real-time fire detection system using YOLOv8 model. The system is capable of detecting fires in real-time through webcam feed.
 
-## Demo Results
-
-Here are some example detections from our model:
-
-<img width="520" alt="Ekran Resmi 2025-06-17 10 27 44" src="https://github.com/user-attachments/assets/d20d52f3-45ad-4d50-9a45-52579873c81c" />
-
-<img width="528" alt="Ekran Resmi 2025-06-17 10 27 52" src="https://github.com/user-attachments/assets/ab9c90b1-9712-45cd-bc8c-ac2c9efec3ef" />
-
-<img width="535" alt="Ekran Resmi 2025-06-17 10 27 59" src="https://github.com/user-attachments/assets/bd0ea4a3-da71-4396-a499-937bf963bc4d" />
-
-<img width="536" alt="Ekran Resmi 2025-06-17 10 28 06" src="https://github.com/user-attachments/assets/d3c12079-fa49-43b9-9d05-570182aabda6" />
-
-
 ## Project Overview
 
 - **Model**: YOLOv8m trained on fire detection
@@ -26,12 +13,23 @@ Here are some example detections from our model:
   - Transfer Learning from pre-trained YOLOv8 model
   - 50 epochs of training
   - Multiple YOLO versions were tested for optimal performance
+ 
+    
+## Model Training Details
+
+The model was trained using transfer learning on YOLOv8 with approximately 9000 fire images. The dataset was prepared and annotated using Roboflow's comprehensive computer vision platform, ensuring high-quality annotations and proper data preprocessing. The training process involved:
+
+- Data preparation and augmentation through Roboflow
+- 50 epochs of training
+- Multiple YOLO versions testing for optimal performance
+- Various environmental conditions for robust detection
 
 ## Features
 
 - Real-time fire detection through webcam
 - Pre-trained model optimized for fire detection
 - Easy-to-use Python implementation
+
 
 ## Requirements
 
@@ -47,18 +45,22 @@ numpy
 2. Place the trained model file (`best.pt`) in the project directory
 3. Run the detection script .py
 
-## Model Training Details
 
-The model was trained using transfer learning on YOLOv8 with approximately 9000 fire images. The dataset was prepared and annotated using Roboflow's comprehensive computer vision platform, ensuring high-quality annotations and proper data preprocessing. The training process involved:
 
-- Data preparation and augmentation through Roboflow
-- 50 epochs of training
-- Multiple YOLO versions testing for optimal performance
-- Various environmental conditions for robust detection
+## Demo Results
 
-## Additional Test Results
+Here are some example detections from our model:
 
-More detection examples from different scenarios:
+<img width="520" alt="Ekran Resmi 2025-06-17 10 27 44" src="https://github.com/user-attachments/assets/d20d52f3-45ad-4d50-9a45-52579873c81c" />
+
+<img width="528" alt="Ekran Resmi 2025-06-17 10 27 52" src="https://github.com/user-attachments/assets/ab9c90b1-9712-45cd-bc8c-ac2c9efec3ef" />
+
+<img width="535" alt="Ekran Resmi 2025-06-17 10 27 59" src="https://github.com/user-attachments/assets/bd0ea4a3-da71-4396-a499-937bf963bc4d" />
+
+<img width="536" alt="Ekran Resmi 2025-06-17 10 28 06" src="https://github.com/user-attachments/assets/d3c12079-fa49-43b9-9d05-570182aabda6" />
+
+
+
 
 
 
