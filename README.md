@@ -6,10 +6,14 @@ This project implements a real-time fire detection system using YOLOv8 model. Th
 
 Here are some example detections from our model:
 
-![Fire Detection Example 1](assets/resim.png)
-![Fire Detection Example 2](assets/resim1.png)
-![Fire Detection Example 3](assets/resim2.png)
-![Fire Detection Example 4](assets/resim3.png)
+<img width="520" alt="Ekran Resmi 2025-06-17 10 27 44" src="https://github.com/user-attachments/assets/d20d52f3-45ad-4d50-9a45-52579873c81c" />
+
+<img width="528" alt="Ekran Resmi 2025-06-17 10 27 52" src="https://github.com/user-attachments/assets/ab9c90b1-9712-45cd-bc8c-ac2c9efec3ef" />
+
+<img width="535" alt="Ekran Resmi 2025-06-17 10 27 59" src="https://github.com/user-attachments/assets/bd0ea4a3-da71-4396-a499-937bf963bc4d" />
+
+<img width="536" alt="Ekran Resmi 2025-06-17 10 28 06" src="https://github.com/user-attachments/assets/d3c12079-fa49-43b9-9d05-570182aabda6" />
+
 
 ## Project Overview
 
@@ -56,9 +60,7 @@ The model was trained using transfer learning on YOLOv8 with approximately 9000 
 
 More detection examples from different scenarios:
 
-![Fire Detection Example 5](assets/resim4.png)
-![Fire Detection Example 6](assets/resim5.png)
-![Fire Detection Example 7](assets/s1.png)
+
 
 ## References
 
