@@ -2,6 +2,15 @@
 
 This project implements a real-time fire detection system using YOLOv8 model. The system is capable of detecting fires in real-time through webcam feed.
 
+## Demo Results
+
+Here are some example detections from our model:
+
+![Fire Detection Example 1](assets/resim.png)
+![Fire Detection Example 2](assets/resim1.png)
+![Fire Detection Example 3](assets/resim2.png)
+![Fire Detection Example 4](assets/resim3.png)
+
 ## Project Overview
 
 - **Model**: YOLOv8m trained on fire detection
@@ -42,6 +51,14 @@ The model was trained using transfer learning on YOLOv8 with approximately 9000 
 - 50 epochs of training
 - Multiple YOLO versions testing for optimal performance
 - Various environmental conditions for robust detection
+
+## Additional Test Results
+
+More detection examples from different scenarios:
+
+![Fire Detection Example 5](assets/resim4.png)
+![Fire Detection Example 6](assets/resim5.png)
+![Fire Detection Example 7](assets/s1.png)
 
 ## References
 
